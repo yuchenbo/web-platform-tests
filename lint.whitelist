@@ -309,6 +309,7 @@ SET TIMEOUT: html/dom/documents/dom-tree-accessors/Document.currentScript.html
 SET TIMEOUT: html/webappapis/timers/*
 SET TIMEOUT: resources/chromium/*
 SET TIMEOUT: resources/test/tests/api-tests-1.html
+SET TIMEOUT: resources/test/tests/force_timeout.html
 SET TIMEOUT: resources/test/tests/worker.js
 SET TIMEOUT: resources/testharness.js
 

@@ -13,19 +13,19 @@ setup({ explicit_timeout: true });
 
 test(function(t) {
     t.force_timeout();
-  }, 'test (synchronous)');
+}, 'test (synchronous)');
 
 async_test(function(t) {
     setTimeout(function() {
         t.force_timeout();
-      }, 0);
-  }, 'async_test');
+    }, 0);
+}, 'async_test');
 
 promise_test(function(t) {
-	t.force_timeout();
+    t.force_timeout();
 
-	return new Promise(function() {});
-  }, 'promise_test');
+    return new Promise(function() {});
+}, 'promise_test');
 </script>
 <script type="text/json" id="expected">
 {
