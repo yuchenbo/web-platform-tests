@@ -319,6 +319,7 @@ SET TIMEOUT: acid/acid3/test.html
 W3C-TEST.ORG: .travis.yml
 
 # Git submodules are not currently scanned
+*: resources/webidl2/*
 *: tools/*
 *: css/tools/apiclient/*
 *: css/tools/w3ctestlib/*
